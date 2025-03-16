@@ -156,7 +156,7 @@ int main(){
     H->Insert(30);
     H->Insert(31);
     H->Insert(49);
-    H->Delete(49);
+    H->Delete(49);//
     H->Insert(59);
     H->Display();
     cout << "Search 39: " << H->Search(39) << endl;
