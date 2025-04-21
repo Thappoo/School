@@ -43,10 +43,6 @@ int fib2(int x, int* t, int &step){
 int main(){
     int step, n = 12;
     for(int v = 0; v < n; v++){
-        step = 0;
-        cout << "F1:" << v << ":"
-            << fib(v, step);
-        cout << " with " << step << " steps "<< endl;
         
         int* table = new int[n];
         for(int i = 0; i < n; i++){
